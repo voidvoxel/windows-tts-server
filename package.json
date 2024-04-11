@@ -1,0 +1,17 @@
+{
+  "name": "@voidvoxel/windows-tts-server",
+  "version": "0.1.0-alpha",
+  "description": "A TTS server implementation for Windows 💖",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ashlynn \"Void Voxel\" Juniper",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "@voidvoxel/windows-tts": "github:voidvoxel/windows-tts",
+    "express": "^4.19.2"
+  }
+}
