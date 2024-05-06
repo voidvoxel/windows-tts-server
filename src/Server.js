@@ -11,10 +11,9 @@ class Server {
             async (request, response) => {
                 let message = request.query.message;
 
-                message = message.replaceAll('_', ' ');
-                message = message.replaceAll('%20', ' ');
-
                 await tts.speak(message);
+
+                message = TTS.encodeMessage(message);
 
                 let html = `<html><body style="background-color: black; color: white;"><p id="result">${message}</p></body></html>`;
 
