@@ -1,12 +1,12 @@
 {
   "name": "@voidvoxel/windows-tts-server",
-  "version": "0.1.0-alpha.1",
+  "version": "0.1.0-alpha.2",
   "lockfileVersion": 3,
   "requires": true,
   "packages": {
     "": {
       "name": "@voidvoxel/windows-tts-server",
-      "version": "0.1.0-alpha.1",
+      "version": "0.1.0-alpha.2",
       "license": "MPL-2.0",
       "dependencies": {
         "@voidvoxel/windows-tts": "git://github.com/voidvoxel/windows-tts#channel/alpha",
