@@ -13,9 +13,7 @@ class Server {
 
                 await tts.speak(message);
 
-                message = TTS.encodeMessage(message);
-
-                let html = `<html><body style="background-color: black; color: white;"><p id="result">${message}</p></body></html>`;
+                let html = `<html><body style="background-color: black; color: white;"><p id="result">${encodeURIComponent(message)}</p></body></html>`;
 
                 response.send(html);
             }
